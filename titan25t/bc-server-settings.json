@@ -1,12 +1,28 @@
 {
-    "bendcontrol_version": "24.1.1",
-    "firmware_versions": {
-        "backgauge": "1.1BG",
-        "machine": "1.1"
-    },
-    "download_urls": {
-         "software": "http://assets.langmuirsystems.com/titan25t/software/software_update.jar",
-         "backgauge_firmware": "http://assets.langmuirsystems.com/titan25t/backgauge/backgauge_update.hex",
-         "machine_firmware": "http://assets.langmuirsystems.com/titan25t/machine/machine_update.bin"
+  "appJar": {
+    "24.1.2": {
+      "appUrl": "https://github.com/ivanshuba/titan25t-assets/raw/main/titan25t/software/bendcontrol.jar"
     }
+  },
+  "platforms": {
+    "ls-bend": {
+      "appVersion": "24.1.2",
+      "bulletin": "bc-bulletin-22-1",
+      "machineFirmware": {
+        "version": "1.2",
+        "url": "https://github.com/ivanshuba/titan25t-assets/raw/main/titan25t/firmware/machine/machine_update.bin",
+        "fqbn": "arduino:renesas_uno:minima",
+        "core": "arduino:renesas_uno"
+      },
+      "moduleFirmware": {
+        "version": "1.2",
+        "url": "https://raw.githubusercontent.com/ivanshuba/titan25t-assets/main/titan25t/firmware/backgauge/backgauge_update.hex",
+        "fqbn": "arduino:avr:uno",
+        "core": "arduino:avr"
+      }
+    }
+  },
+  "userGuideUrl": "https://www.langmuirsystems.com/mr1/tutorials",
+  "toolUrlLinux": "https://raw.githubusercontent.com/ivanshuba/arduino-cli-assets/main/assets/Linux_ARM64_0.35.3/arduino-cli_0.35.3_linux_64bit.zip",
+  "toolUrlWindows": "https://raw.githubusercontent.com/ivanshuba/arduino-cli-assets/main/assets/Windows_64bit_0.35.3/arduino-cli_0.35.3_windows_64bit.zip"
 }
