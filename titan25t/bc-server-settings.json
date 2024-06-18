@@ -1,0 +1,12 @@
+{
+    "bendcontrol_version": "24.1.1",
+    "firmware_versions": {
+        "backgauge": "1.1BG",
+        "machine": "1.1"
+    },
+    "download_urls": {
+         "software": "http://assets.langmuirsystems.com/titan25t/software/software_update.jar",
+         "backgauge_firmware": "http://assets.langmuirsystems.com/titan25t/backgauge/backgauge_update.hex",
+         "machine_firmware": "http://assets.langmuirsystems.com/titan25t/machine/machine_update.bin"
+    }
+}
